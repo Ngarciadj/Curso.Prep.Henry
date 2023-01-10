@@ -1,0 +1,54 @@
+VARIABLE var
+Es una forma de guardar algo para poder usarlo 
+despues, puede ser en forma de STRING, NUMBER 
+o de BOOLEANOS
+
+var a= 1
+
+STRING Es una cadena de caracteres
+puede ser una palabra, un numero; siempre 
+expresado entre comillas.
+Tipo de dato que expresa una variable
+
+var "23"
+var "hello"
+
+NUMBERS (positivos o negativos), no lleva
+comillas
+
+BOOLEANOS expresan 2 opciones (true o false)
+
+var a>5
+var a=1
+var true
+
+FUNCIONES los operadores son funciones, son 
+simbolos que nos dicen que operaciones debemos 
+realizar (/,%,-,*)
+
+function nombredelafuncion (describe lo que hace)
+{codigo a ejecutar}
+
+EJ function suma (a, b) {
+return a+b
+}
+Estaria sumando la variable a y la variable b, y 
+me devuelve el resultado con return
+
+DIF console.log me muestra la suma que no me devuelve el resultado numerico
+
+# Argumentos: agregamos una variable a los parentesis cuando declaramos la funcion, pueden ser multiples poniendo una coma entre ellos. 
+
+# Return: Para devolver algo cuando se trata 
+de numeros usamos return
+
+DECLARACIONE IF 
+Son condiones que en caso de cumplirse, se ejecutara
+el codigo, caso contrario no
+
+if (condicion) {
+    ejecutar lo que esta aqui
+}
+
+variables booleanos: proviene de la logica de boole; tiene dos opciones en js TRUE O false
+EJ var elsolesamarillo = true
